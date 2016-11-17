@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F067A291DDCC9A00061AC2B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F067A281DDCC9A00061AC2B /* WebKit.framework */; };
+		1FE315921DDB9F4B007FDE0B /* chromecast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE315891DDB9F4B007FDE0B /* chromecast.jpg */; };
+		1FE315931DDB9F4B007FDE0B /* iPad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3158A1DDB9F4B007FDE0B /* iPad.jpeg */; };
+		1FE315941DDB9F4B007FDE0B /* iphone7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3158B1DDB9F4B007FDE0B /* iphone7.jpg */; };
+		1FE315951DDB9F4B007FDE0B /* MacbookPro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3158C1DDB9F4B007FDE0B /* MacbookPro.jpg */; };
+		1FE315961DDB9F4B007FDE0B /* Model 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3158D1DDB9F4B007FDE0B /* Model 3.jpg */; };
+		1FE315971DDB9F4B007FDE0B /* model S.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3158E1DDB9F4B007FDE0B /* model S.jpg */; };
+		1FE315981DDB9F4B007FDE0B /* ModelX.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3158F1DDB9F4B007FDE0B /* ModelX.jpg */; };
+		1FE315991DDB9F4B007FDE0B /* Nexus-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE315901DDB9F4B007FDE0B /* Nexus-6.jpg */; };
+		1FE3159A1DDB9F4B007FDE0B /* PIxel XI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FE315911DDB9F4B007FDE0B /* PIxel XI.jpg */; };
+		1FE315A01DDBAC93007FDE0B /* img-companyLogo_Apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3159C1DDBAC93007FDE0B /* img-companyLogo_Apple@2x.png */; };
+		1FE315A11DDBAC93007FDE0B /* img-companyLogo_Google@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3159D1DDBAC93007FDE0B /* img-companyLogo_Google@2x.png */; };
+		1FE315A21DDBAC93007FDE0B /* img-companyLogo_Tesla@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3159E1DDBAC93007FDE0B /* img-companyLogo_Tesla@2x.png */; };
+		1FE315A31DDBAC93007FDE0B /* img-companyLogo_Twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE3159F1DDBAC93007FDE0B /* img-companyLogo_Twitter@2x.png */; };
+		1FE315A91DDBBB53007FDE0B /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE315A81DDBBB53007FDE0B /* WKWebViewController.m */; };
 		48A656B518163BF200746D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A656B418163BF200746D36 /* Foundation.framework */; };
 		48A656B718163BF200746D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A656B618163BF200746D36 /* CoreGraphics.framework */; };
 		48A656B918163BF200746D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A656B818163BF200746D36 /* UIKit.framework */; };
@@ -36,6 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F067A281DDCC9A00061AC2B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1FE315891DDB9F4B007FDE0B /* chromecast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chromecast.jpg; sourceTree = "<group>"; };
+		1FE3158A1DDB9F4B007FDE0B /* iPad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPad.jpeg; sourceTree = "<group>"; };
+		1FE3158B1DDB9F4B007FDE0B /* iphone7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone7.jpg; sourceTree = "<group>"; };
+		1FE3158C1DDB9F4B007FDE0B /* MacbookPro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MacbookPro.jpg; sourceTree = "<group>"; };
+		1FE3158D1DDB9F4B007FDE0B /* Model 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Model 3.jpg"; sourceTree = "<group>"; };
+		1FE3158E1DDB9F4B007FDE0B /* model S.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "model S.jpg"; sourceTree = "<group>"; };
+		1FE3158F1DDB9F4B007FDE0B /* ModelX.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ModelX.jpg; sourceTree = "<group>"; };
+		1FE315901DDB9F4B007FDE0B /* Nexus-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nexus-6.jpg"; sourceTree = "<group>"; };
+		1FE315911DDB9F4B007FDE0B /* PIxel XI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PIxel XI.jpg"; sourceTree = "<group>"; };
+		1FE3159C1DDBAC93007FDE0B /* img-companyLogo_Apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-companyLogo_Apple@2x.png"; sourceTree = "<group>"; };
+		1FE3159D1DDBAC93007FDE0B /* img-companyLogo_Google@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-companyLogo_Google@2x.png"; sourceTree = "<group>"; };
+		1FE3159E1DDBAC93007FDE0B /* img-companyLogo_Tesla@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-companyLogo_Tesla@2x.png"; sourceTree = "<group>"; };
+		1FE3159F1DDBAC93007FDE0B /* img-companyLogo_Twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-companyLogo_Twitter@2x.png"; sourceTree = "<group>"; };
+		1FE315A71DDBBB53007FDE0B /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		1FE315A81DDBBB53007FDE0B /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 		48A656B118163BF200746D36 /* NavCtrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavCtrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A656B418163BF200746D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48A656B618163BF200746D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F067A291DDCC9A00061AC2B /* WebKit.framework in Frameworks */,
 				48A656B718163BF200746D36 /* CoreGraphics.framework in Frameworks */,
 				48A656B918163BF200746D36 /* UIKit.framework in Frameworks */,
 				48A656B518163BF200746D36 /* Foundation.framework in Frameworks */,
@@ -84,6 +116,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FE315871DDB95B5007FDE0B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3159B1DDBAC70007FDE0B /* CompanyLogo */,
+				1FE315881DDB96A6007FDE0B /* Products */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1FE315881DDB96A6007FDE0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3158A1DDB9F4B007FDE0B /* iPad.jpeg */,
+				1FE3158C1DDB9F4B007FDE0B /* MacbookPro.jpg */,
+				1FE3158B1DDB9F4B007FDE0B /* iphone7.jpg */,
+				1FE315911DDB9F4B007FDE0B /* PIxel XI.jpg */,
+				1FE315891DDB9F4B007FDE0B /* chromecast.jpg */,
+				1FE315901DDB9F4B007FDE0B /* Nexus-6.jpg */,
+				1FE3158E1DDB9F4B007FDE0B /* model S.jpg */,
+				1FE3158F1DDB9F4B007FDE0B /* ModelX.jpg */,
+				1FE3158D1DDB9F4B007FDE0B /* Model 3.jpg */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE3159B1DDBAC70007FDE0B /* CompanyLogo */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3159C1DDBAC93007FDE0B /* img-companyLogo_Apple@2x.png */,
+				1FE3159D1DDBAC93007FDE0B /* img-companyLogo_Google@2x.png */,
+				1FE3159E1DDBAC93007FDE0B /* img-companyLogo_Tesla@2x.png */,
+				1FE3159F1DDBAC93007FDE0B /* img-companyLogo_Twitter@2x.png */,
+			);
+			name = CompanyLogo;
+			sourceTree = "<group>";
+		};
 		483796CB1BCBF7A00062D5AB /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +175,8 @@
 			children = (
 				48A656E818163F8700746D36 /* ProductViewController.h */,
 				48A656E918163F8700746D36 /* ProductViewController.m */,
+				1FE315A71DDBBB53007FDE0B /* WKWebViewController.h */,
+				1FE315A81DDBBB53007FDE0B /* WKWebViewController.m */,
 			);
 			name = ProductViewController;
 			sourceTree = "<group>";
@@ -133,6 +203,7 @@
 		48A656B318163BF200746D36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F067A281DDCC9A00061AC2B /* WebKit.framework */,
 				48A656B418163BF200746D36 /* Foundation.framework */,
 				48A656B618163BF200746D36 /* CoreGraphics.framework */,
 				48A656B818163BF200746D36 /* UIKit.framework */,
@@ -157,6 +228,7 @@
 		48A656BB18163BF200746D36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1FE315871DDB95B5007FDE0B /* Assets */,
 				48A656ED1816468000746D36 /* Sunflower.gif */,
 				48A656BC18163BF200746D36 /* NavCtrl-Info.plist */,
 				48A656BD18163BF200746D36 /* InfoPlist.strings */,
@@ -260,10 +332,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE315991DDB9F4B007FDE0B /* Nexus-6.jpg in Resources */,
+				1FE315921DDB9F4B007FDE0B /* chromecast.jpg in Resources */,
+				1FE315A01DDBAC93007FDE0B /* img-companyLogo_Apple@2x.png in Resources */,
+				1FE315A21DDBAC93007FDE0B /* img-companyLogo_Tesla@2x.png in Resources */,
+				1FE3159A1DDB9F4B007FDE0B /* PIxel XI.jpg in Resources */,
 				48A656EE1816468000746D36 /* Sunflower.gif in Resources */,
+				1FE315951DDB9F4B007FDE0B /* MacbookPro.jpg in Resources */,
 				48A656E718163C1B00746D36 /* CompanyViewController.xib in Resources */,
+				1FE315931DDB9F4B007FDE0B /* iPad.jpeg in Resources */,
 				48A656BF18163BF200746D36 /* InfoPlist.strings in Resources */,
+				1FE315961DDB9F4B007FDE0B /* Model 3.jpg in Resources */,
+				1FE315A11DDBAC93007FDE0B /* img-companyLogo_Google@2x.png in Resources */,
 				48A656C718163BF200746D36 /* Images.xcassets in Resources */,
+				1FE315981DDB9F4B007FDE0B /* ModelX.jpg in Resources */,
+				1FE315971DDB9F4B007FDE0B /* model S.jpg in Resources */,
+				1FE315941DDB9F4B007FDE0B /* iphone7.jpg in Resources */,
+				1FE315A31DDBAC93007FDE0B /* img-companyLogo_Twitter@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE315A91DDBBB53007FDE0B /* WKWebViewController.m in Sources */,
 				48A656E618163C1B00746D36 /* CompanyViewController.m in Sources */,
 				48A656C518163BF200746D36 /* NavControllerAppDelegate.m in Sources */,
 				48A656C118163BF200746D36 /* main.m in Sources */,
